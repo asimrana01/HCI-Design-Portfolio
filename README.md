@@ -12,6 +12,16 @@ Wireframes, prototypes and usability evaluation reports for my Human-Computer In
 |---|---|---|
 | 1 | Intro to HCI and UX workflow | [Heuristic evaluation of the UAF LMS](week-01/evaluation-report.md) |
 
+## Week 1 Preview
+
+Evaluated flow: Login → Home → Dashboard → Course page → Result.
+
+| Home after login | Dashboard (semesters mixed) | Result page |
+|---|---|---|
+| <img src="week-01/screenshots/02-home.png" width="300"> | <img src="week-01/screenshots/03-dashboard.png" width="300"> | <img src="week-01/screenshots/05-result.png" width="300"> |
+
+Full findings, severity ratings and fixes are in the [evaluation report](week-01/evaluation-report.md).
+
 ## Repository Structure
 
 ```
@@ -26,3 +36,7 @@ hci-design-portfolio/
 ## Method
 
 Usability problems are found with **Nielsen's 10 heuristics** and rated on Nielsen's 0 to 4 severity scale. Each finding records the screen, the heuristic violated, the evidence and a suggested fix.
+
+## Notes
+
+Screenshots have personal information blurred before being committed.
