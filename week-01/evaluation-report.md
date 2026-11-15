@@ -1,9 +1,9 @@
 # Week 1: Heuristic Evaluation of the UAF Learning Management System (LMS)
 
-**Author:** Muhammad Asim Sadiq
-**Date:** 15 November 2026
-**System evaluated:** UAF LMS (`lms.uaf.edu.pk`)
-**Method:** Heuristic evaluation using Nielsen's 10 usability heuristics
+**Author:** Muhammad Asim Sadiq<br>
+**Date:** 15 November 2026 <br>
+**System evaluated:** UAF LMS (`lms.uaf.edu.pk`)<br>
+**Method:** Heuristic evaluation using Nielsen's 10 usability heuristics<br>
 
 ---
 
@@ -35,13 +35,25 @@ Figma was chosen as the prototyping tool because it is the industry standard for
 **Flow followed:**
 Login → Home → Dashboard → Course page → View Result
 
-| Step | Screenshot |
-|---|---|
-| Login page | `screenshots/01-login.png` |
-| Home after login | `screenshots/02-home.png` |
-| Dashboard | `screenshots/03-dashboard.png` |
-| Course page | `screenshots/04-course-page.png` |
-| Result page | `screenshots/05-result.png` |
+**Step 1: Login page** (`01-login.png`)
+
+![Login page](screenshots/01-login.png)
+
+**Step 2: Home page after login** (`02-home.png`)
+
+![Home page after login](screenshots/02-home.png)
+
+**Step 3: Dashboard** (`03-dashboard.png`)
+
+![Dashboard](screenshots/03-dashboard.png)
+
+**Step 4: Course page** (`04-course-page.png`)
+
+![Course page](screenshots/04-course-page.png)
+
+**Step 5: Result page** (`05-result.png`)
+
+![Result page](screenshots/05-result.png)
 
 ## 4. Evaluation Method
 
@@ -75,11 +87,15 @@ Severity was judged by how often users meet the problem, how much it slows them 
 **Finding 1: Current semester shown last (Severity 3).**
 The dashboard sorts courses oldest first, so Winter Semester 2024-25 appears above Spring Semester 2024-25. A student opening the dashboard to reach current courses must scroll past older ones. This affects every visit and has no workaround except scrolling.
 
+![Evidence for Finding 1: Winter Semester rows listed above Spring Semester rows](screenshots/03-dashboard.png)
+
 **Finding 2: No semester grouping (Severity 3).**
 All courses appear in one flat table. The semester is only a text value in the second column, so users must read each row to tell semesters apart. This relies on recall and scanning instead of clear visual structure.
 
 **Finding 3: Login lands on Home, not Dashboard (Severity 2).**
 After login, students see a page built around faculty categories and the Vice Chancellor's photo. Their own courses are on the Dashboard, so every login costs an extra click. It is minor per visit but it happens every time.
+
+![Evidence for Finding 3: Home page shown after login](screenshots/02-home.png)
 
 ### Root cause for Findings 1 and 2
 
