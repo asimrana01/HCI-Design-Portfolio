@@ -4,7 +4,7 @@ Wireframes, prototypes and usability evaluation reports for my Human-Computer In
 
 **Author:** Muhammad Asim Sadiq
 **Tools:** Figma (design and prototyping), GitHub (version control and documentation)
-**Figma file:** [View-only link](https://www.figma.com/design/F2xCh5li1vvk32e6yNME3T/Untitled?node-id=0-1&t=tuA9tdaa0Xd9XA6b-1)
+**Figma file:** [View-only link](https://www.figma.com/make/uJY0VrylquW1sCRosJWOEs/University-LMS-Redesign?t=HwkPV33v4rSVSaT3-1&preview-route=%2F%23downloads)
 
 ## Weekly Index
 
